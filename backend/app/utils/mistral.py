@@ -7,7 +7,7 @@ dotenv_path = os.path.join(os.path.dirname(__file__), ".env")
 load_dotenv(dotenv_path)
 
 llm_readme = init_chat_model(
-    model="qwen-qwq-32b",
+    model="qwen/qwen3-32b",
     model_provider="groq",
     temperature=0.1,
     reasoning_format="parsed"
